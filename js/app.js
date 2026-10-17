@@ -327,13 +327,13 @@
         document.documentElement.classList.add('dark');
         if (DOM.themeSunIcon) DOM.themeSunIcon.classList.remove('hidden');
         if (DOM.themeMoonIcon) DOM.themeMoonIcon.classList.add('hidden');
-        if (DOM.themeLabel) DOM.themeLabel.textContent = 'Gelap';
+        // if (DOM.themeLabel) DOM.themeLabel.textContent = 'Gelap';
         StorageManager.setTheme('dark');
       } else {
         document.documentElement.classList.remove('dark');
         if (DOM.themeSunIcon) DOM.themeSunIcon.classList.add('hidden');
         if (DOM.themeMoonIcon) DOM.themeMoonIcon.classList.remove('hidden');
-        if (DOM.themeLabel) DOM.themeLabel.textContent = 'Terang';
+        // if (DOM.themeLabel) DOM.themeLabel.textContent = 'Terang';
         StorageManager.setTheme('light');
       }
     },
